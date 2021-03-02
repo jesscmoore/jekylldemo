@@ -181,7 +181,11 @@ You should see it show the url of your site as below where the first part of the
 
 # Personalise our site
 
-Before we make changes to the site, we must create a new git branch. In the Branch tab of GitHUb Desktop, click the down arrow, then click `New Branch`, and set the branch name to "first-commit"
+Before we make changes to the site, we must create a new git branch. In the Branch tab of GitHUb Desktop:
+
+Click the down arrow
+Then click `New Branch`
+Set the branch name to "personalise-repo"
 
 In text editor, open `_config.yml` file_, and change the website title, description, and contact details
 
@@ -196,6 +200,17 @@ twitter_username: [TWITTER_USERNAME]
 github_username:  [GITHUB_USERNAME]
 ```
 
+To commit these changes, go to `GitHub Desktop` app, then
+
+Enter a commit comment
+Click `Commit to personalise-repo` where that is the name of your current branch
+Click `Push Origin` to push local changes to origin
+Click `Create Pull Request` which opens a create pull request in your repo on github.com.
+
+Look for any conflicts, then 
+
+Click `Merge Pull Request`
+Click `Confirm Merge`
 
 
 
