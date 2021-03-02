@@ -23,7 +23,7 @@ email: jessica.moore@anu.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
   Data nerd, hiker, outdoor lover, and once an astronomer.
 baseurl: "/jekylldemo" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "jesscmoore.github.io" # "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jessclaremoore
 github_username:  jesscmoore
 
