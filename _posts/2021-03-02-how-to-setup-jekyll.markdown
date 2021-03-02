@@ -6,6 +6,8 @@ categories: jekyll update
 
 Jekyll is a static site generator for making websites. Here are the steps I took to create a website with Jekyll on github pages on Mac Mojave 10.14.6. Thanks to Amanda Visconti's less on [Building a static stie with Jekyll and Github Pages][https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages]
 
+Dynamic websites pull information from a database to populate each webpage, using content management systems like Drupal or Wordpress. Static websites do not use a CMS, instead each webpage is created statically using page templates that can be shared across all webpages in your site. Jekyll sites are typically quicker as there is no querying of a database to source information for the webpage. Jekyll creates static webpages which are hosted like any other website. Static pages also allow for easier version control as versions are simply text changes rather than databases changes.
+
 # Setup
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
