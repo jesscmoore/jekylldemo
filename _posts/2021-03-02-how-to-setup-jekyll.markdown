@@ -183,7 +183,19 @@ You should see it show the url of your site as below where the first part of the
 
 Before we make changes to the site, we must create a new git branch. In the Branch tab of GitHUb Desktop, click the down arrow, then click `New Branch`, and set the branch name to "first-commit"
 
-In text editor, open `_config.yml` file_, and change these settings
+In text editor, open `_config.yml` file_, and change the website title, description, and contact details
+
+```
+title: [YOUR PREFERRED WEBSITE TITLE]
+email: [EMAIL]
+description: >- # this means to ignore newlines until "baseurl:"
+  Data nerd, hiker, outdoor lover, and once an astronomer.
+baseurl: "/jekylldemo" # the subpath of your site, e.g. /blog
+url: "[GITHUB_USERNAME].github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: [TWITTER_USERNAME]
+github_username:  [GITHUB_USERNAME]
+```
+
 
 
 
@@ -200,4 +212,7 @@ Or if localhosting only, after updating page text, serve the webpage by typing
 `jekyll serve`
 
 
+# Useful references
 
+- Sangsoo Nam's article [Writing Upcoming Posts in GitHub Pages](http://sangsoonam.github.io/2018/12/27/writing-upcoming-posts-in-github-pages.html)
+- Sangsoo Nam's article [Syntax Highlighting in Jekyll](http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html)
