@@ -8,7 +8,7 @@ Jekyll is a static site generator for making websites. Here are the steps I took
 
 Dynamic websites pull information from a database to populate each webpage, using content management systems like Drupal or Wordpress. Static websites do not use a CMS, instead each webpage is created statically using page templates that can be shared across all webpages in your site. Jekyll sites are typically quicker as there is no querying of a database to source information for the webpage. Jekyll creates static webpages which are hosted like any other website. Static pages also allow for easier version control as versions are simply text changes rather than databases changes.
 
-# Installation
+## Installation
 
 Jekyll dependencies:
 
@@ -17,7 +17,7 @@ Jekyll dependencies:
 
 We also install the rbenv ruby environment manager
 
-## Ruby and Ruby Gems
+# Ruby and Ruby Gems
 
 We install both Ruby and Ruby Gems. Gems is the package manager for Ruby.
 
@@ -56,7 +56,7 @@ Check that jekyll points to our home directory with
 
 
 
-## rbenv 
+# rbenv 
 
 We also install `rbenv` to manage environments with different ruby versions.
 
@@ -75,12 +75,12 @@ Setup rbenv to load rbenv automatically
 `echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
 
 
-## NodeJS
+# NodeJS
 
 `brew install node`
 
 
-## Jekyll
+# Jekyll
 
 Install the bundler and jekyll gems
 
@@ -88,5 +88,5 @@ Install the bundler and jekyll gems
 
 If this doesn't work, do `gem install --user-install bundler jekyll`
 
-# First jekyll website
+## First jekyll website
 
