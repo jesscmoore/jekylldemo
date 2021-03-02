@@ -96,10 +96,23 @@ If this doesn't work, do `gem install --user-install bundler jekyll`
 
 # Github Pages
 
+We install the Github Desktop app for easy version control
+
+
+Create a Github directory in your home directory
+
+`mkdir ~/Documents/GitHub`
+
+`cd ~/Documents/GitHub`
+
 
 
 ## First jekyll website
 
-### Test
+
+After updating page text, render to html with
+
+`jekyll serve`
+
 
 
