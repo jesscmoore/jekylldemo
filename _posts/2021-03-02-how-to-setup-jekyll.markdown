@@ -21,6 +21,12 @@ For website hosting, we use
 
 - Github Pages
 
+To simplify version control management, instead of using command line, we use:
+
+- Github Desktop
+
+which provides a gui interface to commit, push, pull, merge changes to the main branch.
+
 
 # Ruby and Ruby Gems
 
@@ -94,7 +100,7 @@ Install the bundler and jekyll gems
 If this doesn't work, do `gem install --user-install bundler jekyll`
 
 
-# Github Pages
+# Github Desktop
 
 We install the Github Desktop app for easy version control
 
@@ -103,9 +109,6 @@ Visit the [GitHub Desktop site](https://desktop.github.com/) and click on the â€
  
 Configure by entering your github.com account credentials.
 
-Open the GitHub desktop app. Creating a local test repo should add a Github directory to your home directory. If it doesn't, do
-
-`mkdir ~/Documents/GitHub`
 
 
 
@@ -121,6 +124,59 @@ Create your first jekyll website using the jekyll command to install a boilerpla
 In `jekylldemo` folder, we find all the initial files needed to run the website..
 
 `cd jekylldemo`
+
+Next, we must set the baseurl, by
+
+Open `_config.yml` file in a text editor. I use BBEdit. Change the baseurl line to be
+
+`baseurl: "/jekylldemo"`
+
+It is good practice, we need to also set the url. Change the url line to
+
+`url: "localhost:4000"`
+
+
+
+# Create repo from project folder
+
+Open the GitHub desktop app. 
+
+Create a repo from jekylldemo project folder 
+
+Click `File` then `New Repository`
+
+The repo name must match the folder name of your jekyll site, and the baseurl set in the _config.yml file, i.e. enter `jekylldemo` as the repo name
+
+`Name`: `jekylldemo`
+
+The Local Path should be set as below
+
+`Local Path`: `~/Documents/GitHub`
+
+This will create the GitHub folder in your Documents directory. This folder is where your repos managed with the GitHub Desktop app are cloned to by default.
+
+For best practice, also tick the box to initialise with a README. Then click `Create Repository`
+
+Then click `Publish` to publish site to GitHub Pages
+
+
+
+# Configure GitHub Page source
+
+Go to the online github repo
+
+Click `Settings` and scroll down to `GitHub Pages` section of the page. Ensure that the GitHub Pages source is set to the main branch. This way pull merges into the main branch will be published to GitHub Pages.
+
+You should see it show the url of your site as below where the first part of the url is your github username
+
+[https://jesscmoore.github.io/jekylldemo/](https://jesscmoore.github.io/jekylldemo/)
+
+
+# Personalise our site
+
+Before we make changes to the site, we must create a new git branch. In the Branch tab of GitHUb Desktop, click the down arrow, then click `New Branch`, and set the branch name to "first-commit"
+
+In text editor, open `_config.yml` file_, and change these settings
 
 
 
