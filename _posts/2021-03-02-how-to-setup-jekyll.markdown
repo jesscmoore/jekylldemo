@@ -178,6 +178,7 @@ You should see it show the url of your site as below where the first part of the
 [https://jesscmoore.github.io/jekylldemo/](https://jesscmoore.github.io/jekylldemo/)
 
 
+
 # Personalise our site
 
 Before we make changes to the site, we must create a new git branch. In the Branch tab of GitHUb Desktop, click the down arrow, then click `New Branch`, and set the branch name to "first-commit"
@@ -186,9 +187,15 @@ In text editor, open `_config.yml` file_, and change these settings
 
 
 
-# Generate html
+# Deploy html to github-pages
 
-After updating page text, render to html with
+After merging a change to main branch, it should deploy quickly to github pages. To check, go to your github repo on github.com i.e. [https://github.com/jesscmoore/jekylldemo](https://github.com/jesscmoore/jekylldemo). On right hand side of the page, scroll down to `Environments`, and click `github-pages` environment to show all code deployments to github.io. It should show that a change has just been deployed to the https://github.com/jesscmoore/jekylldemo.
+
+
+
+## Local hosting
+
+Or if localhosting only, after updating page text, serve the webpage by typing
 
 `jekyll serve`
 
