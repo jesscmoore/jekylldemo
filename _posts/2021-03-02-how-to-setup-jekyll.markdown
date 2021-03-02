@@ -17,6 +17,11 @@ Jekyll dependencies:
 
 We also install the rbenv ruby environment manager
 
+For website hosting, we use 
+
+- Github Pages
+
+
 # Ruby and Ruby Gems
 
 We install both Ruby and Ruby Gems. Gems is the package manager for Ruby.
@@ -87,6 +92,11 @@ Install the bundler and jekyll gems
 `gem install jekyll bundler`
 
 If this doesn't work, do `gem install --user-install bundler jekyll`
+
+
+# Github Pages
+
+
 
 ## First jekyll website
 
