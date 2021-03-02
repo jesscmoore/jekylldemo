@@ -99,16 +99,32 @@ If this doesn't work, do `gem install --user-install bundler jekyll`
 We install the Github Desktop app for easy version control
 
 
-Create a Github directory in your home directory
+Visit the [GitHub Desktop site](https://desktop.github.com/) and click on the “Download GitHub Desktop” button to download the GitHub Desktop 
+ 
+Configure by entering your github.com account credentials.
+
+Open the GitHub desktop app. Creating a local test repo should add a Github directory to your home directory. If it doesn't, do
 
 `mkdir ~/Documents/GitHub`
 
+
+
+
+## My first jekyll website
+
+Create your first jekyll website using the jekyll command to install a boilerplate site in your working directory
+
 `cd ~/Documents/GitHub`
 
+`jekyll new jekylldemo`
+
+In `jekylldemo` folder, we find all the initial files needed to run the website..
+
+`cd jekylldemo`
 
 
-## First jekyll website
 
+# Generate html
 
 After updating page text, render to html with
 
