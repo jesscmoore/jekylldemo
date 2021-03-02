@@ -216,8 +216,9 @@ Click `Confirm Merge`
 
 # Deploy html to github-pages
 
-After merging a change to main branch, it should deploy quickly to github pages. To check, go to your github repo on github.com i.e. [https://github.com/jesscmoore/jekylldemo](https://github.com/jesscmoore/jekylldemo). On right hand side of the page, scroll down to `Environments`, and click `github-pages` environment to show all code deployments to github.io. It should show that a change has just been deployed to the https://github.com/jesscmoore/jekylldemo.
+After merging a change to main branch, it should deploy automatically quite quickly to github pages. To check, go to your github repo on github.com i.e. [https://github.com/jesscmoore/jekylldemo](https://github.com/jesscmoore/jekylldemo). On right hand side of the page, scroll down to `Environments`, and click `github-pages` environment to show all code deployments to github.io. It should show that a change has just been deployed to the https://github.com/jesscmoore/jekylldemo.
 
+Note: It can take up to 20 minutes for changes to your site to publish after you push the changes to GitHub. If your don't see your changes reflected in your browser after an hour, see [About Jekyll build errors for GitHub Pages sites](https://docs.github.com/en/github/working-with-github-pages/about-jekyll-build-errors-for-github-pages-sites).
 
 
 ## Local hosting
@@ -229,5 +230,7 @@ Or if localhosting only, after updating page text, serve the webpage by typing
 
 # Useful references
 
+- YML syntax [https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml](https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml)
+- More YML syntax [https://learnxinyminutes.com/docs/yaml/](https://learnxinyminutes.com/docs/yaml/)
 - Sangsoo Nam's article [Writing Upcoming Posts in GitHub Pages](http://sangsoonam.github.io/2018/12/27/writing-upcoming-posts-in-github-pages.html)
 - Sangsoo Nam's article [Syntax Highlighting in Jekyll](http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html)
